@@ -1,24 +1,12 @@
-// 타입 별칭
-type User = {
-  id: number;
+// 객체 리터럴 타입
+type Dog = {
+  age: number;
   name: string;
-  nickname: string;
-  birth: string;
-  bio: string;
-  location: string;
 };
 
-function test() {
-  type User = string;
-}
-
-let user: User = {
-  id: 1,
-  name: "이정환",
-  nickname: "winterlood",
-  birth: "1997.01.07",
-  bio: "안녕하세요",
-  location: "부천시",
+let dog: Dog = {
+  age: 3,
+  name: "멍멍이",
 };
 
 // 인덱스 시그니처
@@ -37,6 +25,8 @@ type CountryNumberCodes = {
   Korea: number;
 };
 
-// let countryNumberAndStringCodes: CountryNumberCodes = {
-//   Korea: "ko",
-// };
+let countryNumberAndStringCodes: CountryNumberCodes = {
+  Korea: 1,
+  UnitedState: 2,
+  UnitedKingdom: 3,
+};
