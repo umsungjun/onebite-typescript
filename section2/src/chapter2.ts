@@ -14,6 +14,13 @@ let doubleArr: number[][] = [
   [4, 5],
 ];
 
+// 혼합 다차원 배열
+let tripleArr: (number | string)[][] = [
+  [1, 2, 3],
+  [4, "5"],
+  ["6", 7, 8],
+];
+
 // 튜플
 // 길이와 타입이 고정된 배열
 let tup1: [number, number] = [1, 2];
@@ -21,7 +28,7 @@ let tup1: [number, number] = [1, 2];
 let tup2: [number, string, boolean] = [1, "2", true];
 
 const users: [string, number][] = [
-  ["이정환", 1],
+  ["엄성준", 1],
   ["이아무개", 2],
   ["김아무개", 3],
   ["박아무개", 4],
