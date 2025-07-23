@@ -1,5 +1,7 @@
 // enum 타입
 // 여러가지 값들에 각각 이름을 부여해 열거해두고 사용하는 타입
+// 숫자가 자동으로 할당 됨
+// enum은 컴파일해도 js 파일에 남아있음
 
 enum Role {
   ADMIN,
@@ -13,7 +15,7 @@ enum Language {
 }
 
 const user1 = {
-  name: "이정환",
+  name: "엄성준",
   role: Role.ADMIN, // 0 <- 관리자
   language: Language.korean,
 };
